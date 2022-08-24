@@ -50,7 +50,10 @@ final class RefreshTokenPlugin: PluginType {
             }.disposed(by: disposeBag)
             semaphore.wait()
         }
-        
+
+        guard let token = self.token else { return request }
+        var request = request
+        request.addValue("Bearer \(token.accessToken)", forHTTPHeaderField: "Authorization")
         return request
     }
     

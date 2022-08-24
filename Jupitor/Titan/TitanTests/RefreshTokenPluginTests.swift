@@ -6,10 +6,8 @@
 //
 
 import XCTest
-import AccessTokenManagerBridge
 import ApiBridge
 import RxSwift
-import RxTest
 import Models
 import Moya
 @testable import Titan
@@ -36,10 +34,13 @@ class RefreshTokenPluginTests: XCTestCase {
     func testRefreshToken() throws {
         // given refresh token plugin
         // when we prepare for request
-        _ = refreshTokenPlugin.prepare(URLRequest(url: URL(string: "https://www.google.com/")!), target: LoginApi.login(username: "", password: ""))
+        let request = refreshTokenPlugin.prepare(URLRequest(url: URL(string: "https://www.google.com/")!), target: LoginApi.login(username: "", password: ""))
         
         // check if token was updated
-        XCTAssertEqual(accessTokenManager.fetch()?.accessTokenContent.exp, 5661246362)
+        let token = accessTokenManager.fetch()
+        XCTAssertNotNil(token)
+        XCTAssertEqual(token?.accessTokenContent.expiryTime, 5661246362)
+        XCTAssertEqual("Bearer " + token!.accessToken, request.value(forHTTPHeaderField: "Authorization"))
     }
     
 }

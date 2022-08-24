@@ -9,30 +9,9 @@
     "accessToken": "someaccesstoken",
     "accessTokenContent": {
         "country": "SG",
-        "user": {
-            "locale": "en",
-            "name": "Mtest_User2",
-            "email": "sometestemail@hassan.com",
-            "role": "ADMIN"
-        },
         "version": "1",
-        "impersonator": false,
-        "vendors": {
-            "FP_SG": [
-                "s5rs"
-            ],
-            "PY_UY": [
-                "111309"
-            ],
-            "TB_KW": [
-                "13614"
-            ]
-        },
-        "iat": 1661242762,
-        "exp": 5661246362,
-        "aud": "global",
-        "iss": "portalAuth",
-        "sub": "$"
+        "initialTime": 1661242762,
+        "expiryTime": 5661246362
     },
     "accessTokenV2": "someaccesstokenV2"
 }

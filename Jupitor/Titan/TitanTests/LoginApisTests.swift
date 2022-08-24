@@ -93,7 +93,7 @@ class MockLoginProvider: OnlineProvider {
 class MockTitan: NetworkManager {
     var configurations: NetworkConfig {
         NetworkConfigImpl(with: [
-            "BASEURL_WITH_SUBDOMAIN" : "%@-api.%@.stg.portal.restaurant/"
+            "BASE_URL" : "https://www.google.com"
         ])
     }
 }
