@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049F8A6528B6B5F800F52678 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 049F8A6428B6B5F800F52678 /* Moya */; };
+		049F8A6728B6B5F800F52678 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 049F8A6628B6B5F800F52678 /* RxMoya */; };
+		1756D94E28ABE0E5000EE823 /* Titan.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1756D94D28ABE0E5000EE823 /* Titan.docc */; };
+		1756D95428ABE0E5000EE823 /* Titan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1756D94928ABE0E5000EE823 /* Titan.framework */; };
+		1756D95928ABE0E5000EE823 /* TitanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1756D95828ABE0E5000EE823 /* TitanTests.swift */; };
+		1756D95A28ABE0E5000EE823 /* Titan.h in Headers */ = {isa = PBXBuildFile; fileRef = 1756D94C28ABE0E5000EE823 /* Titan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1772D03028B3CEBC00164511 /* LoginApisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772D02F28B3CEBC00164511 /* LoginApisTests.swift */; };
+		1772D03628B3D0F100164511 /* OnlineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772D03528B3D0F100164511 /* OnlineProvider.swift */; };
+		1772D03828B4C22F00164511 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772D03728B4C22F00164511 /* NetworkConfig.swift */; };
+		1772D03E28B4C58F00164511 /* LoginResponseStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 1772D03D28B4C58F00164511 /* LoginResponseStub.json */; };
+		1772D04A28B4DE7A00164511 /* LoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772D04928B4DE7A00164511 /* LoggerPlugin.swift */; };
+		1772D0B628B5188B00164511 /* AuthPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772D0B528B5188B00164511 /* AuthPlugin.swift */; };
+		1772D0B828B527BB00164511 /* RefreshTokenPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772D0B728B527BB00164511 /* RefreshTokenPlugin.swift */; };
+		1772D0C028B612A700164511 /* RefreshTokenPluginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772D0BF28B612A700164511 /* RefreshTokenPluginTests.swift */; };
+		1772D0C628B617E100164511 /* LoginResponseNotExpired.json in Resources */ = {isa = PBXBuildFile; fileRef = 1772D0C528B617E100164511 /* LoginResponseNotExpired.json */; };
+		1772D0C728B617E100164511 /* LoginResponseNotExpired.json in Resources */ = {isa = PBXBuildFile; fileRef = 1772D0C528B617E100164511 /* LoginResponseNotExpired.json */; };
+		17FCB15328AD2B6D0076CFC2 /* LoginApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCB15228AD2B6D0076CFC2 /* LoginApi.swift */; };
+		17FCB15828AD2C570076CFC2 /* LoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCB15728AD2C570076CFC2 /* LoginProvider.swift */; };
+		17FCB15A28AE6BBB0076CFC2 /* LoginApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCB15928AE6BBB0076CFC2 /* LoginApiManager.swift */; };
+		17FCB15D28AE6DED0076CFC2 /* libApiBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FCB15C28AE6DED0076CFC2 /* libApiBridge.a */; };
+		17FCB18528AF86220076CFC2 /* Titan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCB18428AF86220076CFC2 /* Titan.swift */; };
+		17FCB19728AF913A0076CFC2 /* libModels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FCB19628AF913A0076CFC2 /* libModels.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1756D95528ABE0E5000EE823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1756D94028ABE0E5000EE823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1756D94828ABE0E5000EE823;
+			remoteInfo = TItan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17EC11BA28AFEECF005061B4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1756D94928ABE0E5000EE823 /* Titan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Titan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1756D94C28ABE0E5000EE823 /* Titan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Titan.h; sourceTree = "<group>"; };
+		1756D94D28ABE0E5000EE823 /* Titan.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Titan.docc; sourceTree = "<group>"; };
+		1756D95328ABE0E5000EE823 /* TitanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1756D95828ABE0E5000EE823 /* TitanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitanTests.swift; sourceTree = "<group>"; };
+		1772D02F28B3CEBC00164511 /* LoginApisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApisTests.swift; sourceTree = "<group>"; };
+		1772D03528B3D0F100164511 /* OnlineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnlineProvider.swift; path = ../../../APIBridge/ServiceModels/OnlineProvider.swift; sourceTree = "<group>"; };
+		1772D03728B4C22F00164511 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		1772D03D28B4C58F00164511 /* LoginResponseStub.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LoginResponseStub.json; sourceTree = "<group>"; };
+		1772D04928B4DE7A00164511 /* LoggerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerPlugin.swift; sourceTree = "<group>"; };
+		1772D0B528B5188B00164511 /* AuthPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPlugin.swift; sourceTree = "<group>"; };
+		1772D0B728B527BB00164511 /* RefreshTokenPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenPlugin.swift; sourceTree = "<group>"; };
+		1772D0BF28B612A700164511 /* RefreshTokenPluginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenPluginTests.swift; sourceTree = "<group>"; };
+		1772D0C528B617E100164511 /* LoginResponseNotExpired.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LoginResponseNotExpired.json; sourceTree = "<group>"; };
+		17FCB15228AD2B6D0076CFC2 /* LoginApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApi.swift; sourceTree = "<group>"; };
+		17FCB15728AD2C570076CFC2 /* LoginProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProvider.swift; sourceTree = "<group>"; };
+		17FCB15928AE6BBB0076CFC2 /* LoginApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApiManager.swift; sourceTree = "<group>"; };
+		17FCB15C28AE6DED0076CFC2 /* libApiBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libApiBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FCB18428AF86220076CFC2 /* Titan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Titan.swift; sourceTree = "<group>"; };
+		17FCB19628AF913A0076CFC2 /* libModels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libModels.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1756D94628ABE0E5000EE823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F8A6728B6B5F800F52678 /* RxMoya in Frameworks */,
+				049F8A6528B6B5F800F52678 /* Moya in Frameworks */,
+				17FCB15D28AE6DED0076CFC2 /* libApiBridge.a in Frameworks */,
+				17FCB19728AF913A0076CFC2 /* libModels.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1756D95028ABE0E5000EE823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1756D95428ABE0E5000EE823 /* Titan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1756D93F28ABE0E5000EE823 = {
+			isa = PBXGroup;
+			children = (
+				1772D03C28B4C57100164511 /* SupportingFiles */,
+				1756D94B28ABE0E5000EE823 /* Titan */,
+				1756D95728ABE0E5000EE823 /* TitanTests */,
+				1756D94A28ABE0E5000EE823 /* Products */,
+				17FCB15B28AE6DED0076CFC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1756D94A28ABE0E5000EE823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1756D94928ABE0E5000EE823 /* Titan.framework */,
+				1756D95328ABE0E5000EE823 /* TitanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1756D94B28ABE0E5000EE823 /* Titan */ = {
+			isa = PBXGroup;
+			children = (
+				1772D04828B4DE4900164511 /* Plugins */,
+				17FCB15628AD2C400076CFC2 /* TitanSetup */,
+				17FCB15028AD2B470076CFC2 /* APIs */,
+				17FCB14328AD27D60076CFC2 /* OtherFrameworks */,
+				1756D94C28ABE0E5000EE823 /* Titan.h */,
+				1756D94D28ABE0E5000EE823 /* Titan.docc */,
+			);
+			path = Titan;
+			sourceTree = "<group>";
+		};
+		1756D95728ABE0E5000EE823 /* TitanTests */ = {
+			isa = PBXGroup;
+			children = (
+				1756D95828ABE0E5000EE823 /* TitanTests.swift */,
+				1772D02F28B3CEBC00164511 /* LoginApisTests.swift */,
+				1772D0BF28B612A700164511 /* RefreshTokenPluginTests.swift */,
+			);
+			path = TitanTests;
+			sourceTree = "<group>";
+		};
+		1772D03C28B4C57100164511 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1772D03D28B4C58F00164511 /* LoginResponseStub.json */,
+				1772D0C528B617E100164511 /* LoginResponseNotExpired.json */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1772D04828B4DE4900164511 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				1772D04928B4DE7A00164511 /* LoggerPlugin.swift */,
+				1772D0B528B5188B00164511 /* AuthPlugin.swift */,
+				1772D0B728B527BB00164511 /* RefreshTokenPlugin.swift */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		17FCB14328AD27D60076CFC2 /* OtherFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OtherFrameworks;
+			sourceTree = "<group>";
+		};
+		17FCB15028AD2B470076CFC2 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				17FCB15128AD2B530076CFC2 /* LoginApi */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		17FCB15128AD2B530076CFC2 /* LoginApi */ = {
+			isa = PBXGroup;
+			children = (
+				17FCB15228AD2B6D0076CFC2 /* LoginApi.swift */,
+				17FCB15928AE6BBB0076CFC2 /* LoginApiManager.swift */,
+			);
+			path = LoginApi;
+			sourceTree = "<group>";
+		};
+		17FCB15628AD2C400076CFC2 /* TitanSetup */ = {
+			isa = PBXGroup;
+			children = (
+				17FCB18428AF86220076CFC2 /* Titan.swift */,
+				1772D03528B3D0F100164511 /* OnlineProvider.swift */,
+				17FCB15728AD2C570076CFC2 /* LoginProvider.swift */,
+				1772D03728B4C22F00164511 /* NetworkConfig.swift */,
+			);
+			path = TitanSetup;
+			sourceTree = "<group>";
+		};
+		17FCB15B28AE6DED0076CFC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17FCB19628AF913A0076CFC2 /* libModels.a */,
+				17FCB15C28AE6DED0076CFC2 /* libApiBridge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1756D94428ABE0E5000EE823 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1756D95A28ABE0E5000EE823 /* Titan.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1756D94828ABE0E5000EE823 /* Titan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1756D95D28ABE0E5000EE823 /* Build configuration list for PBXNativeTarget "Titan" */;
+			buildPhases = (
+				1756D94428ABE0E5000EE823 /* Headers */,
+				1756D94528ABE0E5000EE823 /* Sources */,
+				1756D94628ABE0E5000EE823 /* Frameworks */,
+				1756D94728ABE0E5000EE823 /* Resources */,
+				17EC11BA28AFEECF005061B4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Titan;
+			packageProductDependencies = (
+				049F8A6428B6B5F800F52678 /* Moya */,
+				049F8A6628B6B5F800F52678 /* RxMoya */,
+			);
+			productName = TItan;
+			productReference = 1756D94928ABE0E5000EE823 /* Titan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1756D95228ABE0E5000EE823 /* TitanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1756D96028ABE0E5000EE823 /* Build configuration list for PBXNativeTarget "TitanTests" */;
+			buildPhases = (
+				1756D94F28ABE0E5000EE823 /* Sources */,
+				1756D95028ABE0E5000EE823 /* Frameworks */,
+				1756D95128ABE0E5000EE823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1756D95628ABE0E5000EE823 /* PBXTargetDependency */,
+			);
+			name = TitanTests;
+			productName = TItanTests;
+			productReference = 1756D95328ABE0E5000EE823 /* TitanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1756D94028ABE0E5000EE823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1756D94828ABE0E5000EE823 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1756D95228ABE0E5000EE823 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1756D94328ABE0E5000EE823 /* Build configuration list for PBXProject "Titan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1756D93F28ABE0E5000EE823;
+			packageReferences = (
+				049F8A6328B6B5F800F52678 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
+			productRefGroup = 1756D94A28ABE0E5000EE823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1756D94828ABE0E5000EE823 /* Titan */,
+				1756D95228ABE0E5000EE823 /* TitanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1756D94728ABE0E5000EE823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1772D03E28B4C58F00164511 /* LoginResponseStub.json in Resources */,
+				1772D0C628B617E100164511 /* LoginResponseNotExpired.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1756D95128ABE0E5000EE823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1772D0C728B617E100164511 /* LoginResponseNotExpired.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1756D94528ABE0E5000EE823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1772D0B828B527BB00164511 /* RefreshTokenPlugin.swift in Sources */,
+				1772D03628B3D0F100164511 /* OnlineProvider.swift in Sources */,
+				17FCB18528AF86220076CFC2 /* Titan.swift in Sources */,
+				17FCB15328AD2B6D0076CFC2 /* LoginApi.swift in Sources */,
+				1756D94E28ABE0E5000EE823 /* Titan.docc in Sources */,
+				1772D03828B4C22F00164511 /* NetworkConfig.swift in Sources */,
+				1772D04A28B4DE7A00164511 /* LoggerPlugin.swift in Sources */,
+				1772D0B628B5188B00164511 /* AuthPlugin.swift in Sources */,
+				17FCB15A28AE6BBB0076CFC2 /* LoginApiManager.swift in Sources */,
+				17FCB15828AD2C570076CFC2 /* LoginProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1756D94F28ABE0E5000EE823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1772D0C028B612A700164511 /* RefreshTokenPluginTests.swift in Sources */,
+				1772D03028B3CEBC00164511 /* LoginApisTests.swift in Sources */,
+				1756D95928ABE0E5000EE823 /* TitanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1756D95628ABE0E5000EE823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1756D94828ABE0E5000EE823 /* Titan */;
+			targetProxy = 1756D95528ABE0E5000EE823 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1756D95B28ABE0E5000EE823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1756D95C28ABE0E5000EE823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1756D95E28ABE0E5000EE823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassan.TItan;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1756D95F28ABE0E5000EE823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassan.TItan;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1756D96128ABE0E5000EE823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassan.TItanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1756D96228ABE0E5000EE823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassan.TItanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1756D94328ABE0E5000EE823 /* Build configuration list for PBXProject "Titan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1756D95B28ABE0E5000EE823 /* Debug */,
+				1756D95C28ABE0E5000EE823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1756D95D28ABE0E5000EE823 /* Build configuration list for PBXNativeTarget "Titan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1756D95E28ABE0E5000EE823 /* Debug */,
+				1756D95F28ABE0E5000EE823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1756D96028ABE0E5000EE823 /* Build configuration list for PBXNativeTarget "TitanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1756D96128ABE0E5000EE823 /* Debug */,
+				1756D96228ABE0E5000EE823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		049F8A6328B6B5F800F52678 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		049F8A6428B6B5F800F52678 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 049F8A6328B6B5F800F52678 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		049F8A6628B6B5F800F52678 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 049F8A6328B6B5F800F52678 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1756D94028ABE0E5000EE823 /* Project object */;
+}

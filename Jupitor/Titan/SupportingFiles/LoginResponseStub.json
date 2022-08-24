@@ -1,0 +1,38 @@
+{
+    "refreshToken": "#",
+    "tokenType": "Bearer",
+    "user": {
+        "createdAt": "2022-02-11T09:27:44.363Z",
+        "email": "sometestemail@hassan.com"
+    },
+    "role": "ADMIN",
+    "accessToken": "someaccesstoken",
+    "accessTokenContent": {
+        "country": "SG",
+        "user": {
+            "locale": "en",
+            "name": "Mtest_User2",
+            "email": "sometestemail@hassan.com",
+            "role": "ADMIN"
+        },
+        "version": "1",
+        "impersonator": false,
+        "vendors": {
+            "FP_SG": [
+                "s5rs"
+            ],
+            "PY_UY": [
+                "111309"
+            ],
+            "TB_KW": [
+                "13614"
+            ]
+        },
+        "iat": 1661242762,
+        "exp": 1661246362,
+        "aud": "global",
+        "iss": "portalAuth",
+        "sub": "$"
+    },
+    "accessTokenV2": "someaccesstokenV2"
+}
