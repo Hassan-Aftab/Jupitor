@@ -1,4 +1,4 @@
 # Jupitor
-An Example project to show how to work with Moya Framework in iOS
+An Example project to show how to create a Network Module with Moya Framework in iOS
 
 
